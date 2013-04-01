@@ -6,13 +6,15 @@ The main responsibility of this plugin is to check what packages the current Cak
 
 # Requirement
 
-The plugin is compatible with CakePHP 2.x. Clone/Download it to `app/Plugin/Bower`.
+The plugin is compatible with CakePHP 2.x.
 
 You will also need Bower installed globally via [npm](https://npmjs.org/package/bower):
 
     $ npm install -g bower
 
 ## Installation
+
+Clone/Download the plugin to `app/Plugin/Bower`.
 
 When the plugin's shell is first run, it will automatically create a file at `app/.bowerrc` and a directory at `app/webroot/components/`. 
 
